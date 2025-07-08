@@ -1,15 +1,16 @@
-# Frontend (PWA)
+# 🧩 Frontend - Clarichain PWA
 
-This is the frontend for [Startup Name]'s web app.
+This is the Progressive Web App (PWA) for Clarichain.
 
-## Tech Stack
+## 🌐 Tech Stack
 - Framework: Next.js
 - Styling: TailwindCSS
-- Hosting: Vercel
+- State Management: Zustand/Redux (if any)
+- PWA Support: Yes
 
-## Getting Started
+## 🛠️ Setup
 ```bash
-git clone https://github.com/org/frontend.git
+git clone https://github.com/clarichain/frontend.git
 cd frontend
 npm install
 npm run dev
