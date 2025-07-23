@@ -154,6 +154,7 @@ export function UploadContractDialog({
                     size="sm"
                     variant="ghost"
                     className="hover:bg-red-100"
+                    //eslint-disable-next-line
                     onClick={() => form.setValue("file", undefined as any)}
                   >
                     <Trash className="h-4 w-4 text-red-500" />

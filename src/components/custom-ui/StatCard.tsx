@@ -7,11 +7,8 @@ import {
   CheckCircle,
   Clock,
   FileEdit,
-  Files,
-  FileText,
-  LucideProps,
+  FileText
 } from "lucide-react";
-import React, { ForwardRefExoticComponent, RefAttributes } from "react";
 
 const cardVariant: Variants = {
   hidden: { opacity: 0, y: 30 },

@@ -78,7 +78,8 @@ const Navbar = () => {
           {/* Desktop Icons */}
           <div className="hidden md:flex gap-4 items-center">
             {[Bell, Settings].map((Icon, i) => (
-              <motion.div
+              <motion.a
+                href="/dashboard/setting"
                 key={i}
                 whileHover={{ scale: 1.1, rotate: 2 }}
                 transition={{ type: "spring", stiffness: 300 }}
@@ -87,7 +88,7 @@ const Navbar = () => {
                   size={22}
                   className="text-muted-foreground"
                 />
-              </motion.div>
+              </motion.a>
             ))}
           </div>
 
